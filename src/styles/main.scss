@@ -11,10 +11,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Press Start 2P", sans-serif;
-    font-size: 12px;
     color: variable.$textColor;
     list-style: none;
 }
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 .container {
