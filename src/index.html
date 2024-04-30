@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto's Day</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<header class="hero">
+    <div class="container">
+        <p class="hero__text">
+            Faltam apenas <span id="contador"></span> para o Porto's Day
+        </p>
+        <div class="infos-bar">
+            <ul class="infos-bar__infos">
+                <li class="infos-bar__infos__item">
+                    <b>Localização</b>
+                    Marina - Armação dos Buzios - Rio de Janeiro
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Preço</b>
+                    A partir de R$ 1.200,00
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Quando</b>
+                    01/02/2025 às 19hrs
+                </li>
+            </ul>
+            <ul>
+                <a href="" class="button button--primary">Garanta o seu ingresso</a>
+            </ul>
+        </div>
+    </div>
+</header>
+<section class="event event--portoDay">   
+    <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Porto's Day</h2>
+            <p class="event__details__description">
+                Prepare-se para uma experiência única e inesquecível enquanto celebramos o aniversário em grande estilo com um festival de música eletrônica emocionante. Este evento épico promete uma jornada sonora que vai elevar seus sentidos e criar memórias duradouras. Com uma programação repleta dos melhores DJs e artistas da cena eletrônica.</p>
+        </div>
+        <img class="event__image" src="https://www.nit.pt/wp-content/uploads/2022/07/ba39fb4f887c0af1501ae5912c129ec4-754x394.jpg" alt="Front-end">
+    </div>
+</section>
+<section class="event event--frontend">   
+    <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Dormitórios</h2>
+            <p class="event__details__description">
+                Descanse e recarregue suas energias em nossos confortáveis dormitórios durante a celebração do Porto's Day. Oferecemos uma variedade de opções para acomodar convidados, desde quartos individuais a suítes. Reserve seu espaço agora para garantir uma estadia relaxante e conveniente durante a festa.
+            </p>
+        </div>
+        <img class="event__image" src="data:image/jpeg;base64,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" alt="Front-end">
+    </div>
+</section>
+<section class="event event--ux-ui event--image-left" >   
+    <div class="container" data-aos="fade-left">
+        <div class="event__details">
+            <h2 class="event__details__title">Alimentação</h2>
+            <p class="event__details__description">
+                Deleite-se com uma experiência gastronômica excepcional durante a festa. Contratamos uma equipe culinária especializada que preparou um menu diversificado para agradar a todos os gostos e preferências. 
+            </p>
+        </div>
+        <img class="event__image" src="https://png.pngtree.com/background/20230616/original/pngtree-buffet-with-bread-and-fruits-in-it-picture-image_3631797.jpg" alt="UI UX">
+    </div>
+</section>
+<section class="event event--data-science" >   
+    <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">Ambulância para Emergências</h2>
+            <p class="event__details__description">
+                Sua segurança é nossa prioridade número um. Em caso de emergência médica durante a festa de aniversário, nossa equipe está pronta para agir com rapidez e eficiência. Contamos com uma ambulância totalmente equipada e uma equipe médica experiente para fornecer assistência imediata, garantindo sua tranquilidade e bem-estar durante todo o evento.            </p>
+        </div>
+        <img class="event__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSKkv1CsTCF-l3shvTVhPgrjwg5-l0B8781A&usqp=CAU" alt="Data Science">
+    </div>
+</section>
+<section class="event event--backend event--image-left " >   
+    <div class="container" data-aos="fade-left">
+        <div class="event__details">
+            <h2 class="event__details__title">Segurança</h2>
+            <p class="event__details__description">
+                O objetivo é se divertir, e não tem nada melhor que fazer isso em um ambiente seguro e protegido para todos. Nossa equipe de segurança altamente treinada está sempre presente para garantir que o evento transcorra sem problemas. Com procedimentos rigorosos de controle de acesso e vigilância constante, você pode relaxar e aproveitar a festa com total confiança.            </p>
+        </div>
+        <img class="event__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXBx9rfKwhgeXnK_hOow2r2Z9pFU4Glr66iA&usqp=CAU" alt="Back-end">
+    </div>
+</section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
