@@ -10,25 +10,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Press Start 2P", sans-serif;
+    font-family: Roboto, sans-serif;
     color: variable.$textColor;
     list-style: none;
 }
-.press-start-2p-regular {
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
+
+
 
 
 .container {
+    
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+
     
 
     @media (max-width:640px) {
         max-width: 80%;
+       
     }
 
     @media (max-width:1024px) {
