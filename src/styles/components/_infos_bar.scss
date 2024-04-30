@@ -4,7 +4,8 @@
 
 .infos-bar {
     padding: 16px 24px;
-    background-color: variable.$textColor;
+    background-color: variable.$black2;
+    opacity: 1.2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,13 +17,13 @@
 
         &__item {
             font-size: 14px;
-            color: variable.$textInfo;
+            color: variable.$textColor;
             
 
             b {
                 font-size: 18px;
                 display: block;
-                color: variable.$textInfo;
+                color: variable.$textColor;
             }
         }
     }
